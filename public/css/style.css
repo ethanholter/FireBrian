@@ -6,24 +6,28 @@
 }
 
 body {
-    background: linear-gradient(#FFCD00, #544400);
+    /* background: radial-gradient(#FFCD00 30%, #FFCD00 70%,#876c00 100%) no-repeat fixed; */
+    background: #FFCD00;
+    width: 100vw;
+    overflow: hidden;
 }
 .main-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+   
 }
 .main-text {
     color: rgb(49, 49, 49);
     margin: auto;
     font-size: 1.8rem;
     vertical-align: middle;
-
     .points-per-game {
+        text-shadow: -5px 5px 6px#00000065;
         line-height: 0.85;
         color: black;
-        font-size: 15rem;
+        font-size: 120px;
         font-weight: bold;
     }
     .points-per-game-goal {
