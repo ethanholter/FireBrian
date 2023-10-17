@@ -36,4 +36,7 @@ body {
         font-size: 4rem;
         font-weight: bold;
     }
+    .donate {
+        padding: 10px;
+    }
 }
