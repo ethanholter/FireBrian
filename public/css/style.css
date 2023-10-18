@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    text-align: center;
    
 }
 .main-text {
@@ -36,9 +37,9 @@ body {
         font-size: 4rem;
         font-weight: bold;
     }
-    .donate {
-        padding: 10px;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+}
+
+.donate {
+    padding: 10px;
+    text-align: center;
 }
